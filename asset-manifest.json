@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/overwatch-shop/static/css/main.3f916f89.chunk.css",
+    "main.js": "/overwatch-shop/static/js/main.54818688.chunk.js",
+    "main.js.map": "/overwatch-shop/static/js/main.54818688.chunk.js.map",
+    "runtime-main.js": "/overwatch-shop/static/js/runtime-main.03a4cd36.js",
+    "runtime-main.js.map": "/overwatch-shop/static/js/runtime-main.03a4cd36.js.map",
+    "static/js/2.9b66cc39.chunk.js": "/overwatch-shop/static/js/2.9b66cc39.chunk.js",
+    "static/js/2.9b66cc39.chunk.js.map": "/overwatch-shop/static/js/2.9b66cc39.chunk.js.map",
+    "static/js/3.5e98cd36.chunk.js": "/overwatch-shop/static/js/3.5e98cd36.chunk.js",
+    "static/js/3.5e98cd36.chunk.js.map": "/overwatch-shop/static/js/3.5e98cd36.chunk.js.map",
+    "index.html": "/overwatch-shop/index.html",
+    "static/css/main.3f916f89.chunk.css.map": "/overwatch-shop/static/css/main.3f916f89.chunk.css.map",
+    "static/js/2.9b66cc39.chunk.js.LICENSE.txt": "/overwatch-shop/static/js/2.9b66cc39.chunk.js.LICENSE.txt",
+    "static/media/footer-bg.c48a51d6.jpg": "/overwatch-shop/static/media/footer-bg.c48a51d6.jpg",
+    "static/media/overwatch.699a635e.svg": "/overwatch-shop/static/media/overwatch.699a635e.svg",
+    "static/media/overwatchTrailer.aa8bcb67.mp4": "/overwatch-shop/static/media/overwatchTrailer.aa8bcb67.mp4"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.03a4cd36.js",
+    "static/js/2.9b66cc39.chunk.js",
+    "static/css/main.3f916f89.chunk.css",
+    "static/js/main.54818688.chunk.js"
+  ]
+}

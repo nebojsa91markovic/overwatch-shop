@@ -78,7 +78,7 @@ const Cart = () => {
                       </p>
                     </div>
                   ) : (
-                    myCart.map((item) => {
+                    myCart.map((item, index) => {
                       return (
                         <Elem.Li>
                           <Elem.Name>

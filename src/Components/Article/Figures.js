@@ -3,7 +3,7 @@ import { FaStar, FaArrowLeft, FaHeart } from "react-icons/fa";
 import "./style.css";
 import cartStore from "../../Store/CartStore";
 import { figureAdd } from "../../Reducer/actionsCreator";
-
+import * as Elem from "../../Elements/Article";
 const defaultRoute = "../../images/New folder/";
 
 const Figures = ({
@@ -59,7 +59,10 @@ const Figures = ({
   return (
     <div className="container">
       <div className="card">
-        <div className="content-1">
+        <Elem.Content1
+          className="content-1"
+          contentName={activeHero.name.toUpperCase()}
+        >
           <span className="arrow-left">
             <FaArrowLeft />
           </span>
@@ -75,7 +78,7 @@ const Figures = ({
           <div className="main-image">
             <img id="remote" src={pic.src} alt="Ana" />
           </div>
-        </div>
+        </Elem.Content1>
         {/* figures start */}
         <div className="content-2">
           <div className="sub-image" ref={parentDiv}></div>
@@ -118,9 +121,10 @@ const Figures = ({
             </div>
             <div className="paragraph">
               <p>
-                The Dualshock Wireless Controller for PS4 gives you what you
-                want in your gaming from precision control over your games to
-                sharing your greatest game...
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s, when an unknown printer took a galley
+                of type and scrambled it to make a type specimen book.
                 <span>Read More</span>
               </p>
             </div>

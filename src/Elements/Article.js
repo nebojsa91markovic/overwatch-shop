@@ -28,13 +28,18 @@ export const Card = styled.div`
 export const Content1 = styled.div`
   position: relative;
   width: 100%;
-  height: 30%;
-  background-image: linear-gradient(to bottom right, #0a52af, #1270ea);
+  height: 40%;
+  background-image: linear-gradient(
+    to bottom right,
+    rgba(10, 82, 175, 0.8),
+    rgba(18, 112, 234, 0.8)
+  );
 
   &:after {
-    content: "ANA";
+    content: "${(props) => props.contentName} ";
     position: absolute;
-    left: 50%;
+    display: inline;
+    left: 3%;
     top: 20%;
     font-size: 5.5em;
     font-weight: 800;

@@ -11,7 +11,23 @@ export default function reducer(state = [], action) {
       if (index === null) index = 0;
       let newItem = data.find((item) => item.name === name);
       newItem = newItem.figures[index];
-      return [...state, { ...newItem, amount: 1 }];
+      let isAlreadyInCart = false;
+      [...state].forEach((elem) => {
+        if (elem.name.includes(name) && elem.figureIndex === index) {
+          isAlreadyInCart = true;
+        }
+      });
+
+      if (isAlreadyInCart) {
+        return [...state].map((item) =>
+          item.name.includes(name) && item.figureIndex === index
+            ? { ...item, amount: item.amount + 1 }
+            : item
+        );
+      } else {
+        return [...state, { ...newItem, amount: 1, figureIndex: index }];
+      }
+
     case actions.UPDATE_CART_ITEM:
       return state.map((item) =>
         item.name !== action.payload.name

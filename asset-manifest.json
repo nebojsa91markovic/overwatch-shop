@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/overwatch-shop/static/css/main.3f916f89.chunk.css",
-    "main.js": "/overwatch-shop/static/js/main.54818688.chunk.js",
-    "main.js.map": "/overwatch-shop/static/js/main.54818688.chunk.js.map",
+    "main.js": "/overwatch-shop/static/js/main.1ad68e86.chunk.js",
+    "main.js.map": "/overwatch-shop/static/js/main.1ad68e86.chunk.js.map",
     "runtime-main.js": "/overwatch-shop/static/js/runtime-main.03a4cd36.js",
     "runtime-main.js.map": "/overwatch-shop/static/js/runtime-main.03a4cd36.js.map",
     "static/js/2.9b66cc39.chunk.js": "/overwatch-shop/static/js/2.9b66cc39.chunk.js",
@@ -20,6 +20,6 @@
     "static/js/runtime-main.03a4cd36.js",
     "static/js/2.9b66cc39.chunk.js",
     "static/css/main.3f916f89.chunk.css",
-    "static/js/main.54818688.chunk.js"
+    "static/js/main.1ad68e86.chunk.js"
   ]
 }

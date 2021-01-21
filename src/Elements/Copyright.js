@@ -4,7 +4,7 @@ export const Section = styled.section`
   margin-bottom: 0;
   margin-left: 0;
   width: 100%;
-
+  padding: 0.5rem;
   height: 600px;
   overflow: hidden;
   display: flex;

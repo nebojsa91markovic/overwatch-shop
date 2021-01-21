@@ -11,7 +11,7 @@ export const HeroesHeaderContainer = styled.section`
   left: 0;
   width: 100%;
   height: 300px;
-  padding: 5rem;
+  padding: 5rem 2.5rem 5rem;
   transform: translate(-5rem);
   overflow: hidden;
   background: ${primaryColor}

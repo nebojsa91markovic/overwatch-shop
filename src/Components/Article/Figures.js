@@ -4,7 +4,7 @@ import "./style.css";
 import cartStore from "../../Store/CartStore";
 import { figureAdd } from "../../Reducer/actionsCreator";
 import * as Elem from "../../Elements/Article";
-const defaultRoute = "../../images/New folder/";
+const defaultRoute = process.env.PUBLIC_URL + "/images/New Folder/";
 
 const Figures = ({
   changeImg,

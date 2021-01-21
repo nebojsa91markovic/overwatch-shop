@@ -41,7 +41,10 @@ const HeroIconWrapper = ({ show, setShow, getHero }) => {
             >
               {show ? <HeroVideo setShow={setShow} /> : ""}
               <Elem.Img
-                src={`../../OverwatchCharacters/${hero.name}-icon.png`}
+                src={
+                  process.env.PUBLIC_URL +
+                  `/OverwatchCharacters/${hero.name}-icon.png`
+                }
                 alt={`${hero.name}-icon`}
               />
               <span>{hero.name}</span>
